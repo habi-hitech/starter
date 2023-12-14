@@ -9,7 +9,8 @@ i18n
     backend: {
       loadPath: "/public/locales/{{lng}}/{{ns}}.json",
     },
-    fallbackLng: "en",
+    lng: "en",
+    fallbackLng: "np",
     interpolation: {
       escapeValue: false, // react already safes from xss
     },
