@@ -1,7 +1,9 @@
-import { RouterProvider } from "react-router-dom";
+// import { RouterProvider } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import "./App.css";
 
 function App() {
+  const { t } = useTranslation(["common"]);
   //  const router = createHashRouter([
   //    ...publicRoutes,
   //    {
@@ -13,7 +15,7 @@ function App() {
   return (
     <>
       {/* <ThemeProvider theme={theme}> */}
-      This is just a test
+      <p>{t("yo")}</p>
       {/* <RouterProvider router={router} /> */}
       {/* </ThemeProvider> */}
     </>
