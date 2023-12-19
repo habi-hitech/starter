@@ -1,6 +1,7 @@
 // import { RouterProvider } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import "./App.css";
+import Form from "./components/common/form/Form";
 
 function App() {
   const { t } = useTranslation(["common"]);
@@ -15,7 +16,8 @@ function App() {
   return (
     <>
       {/* <ThemeProvider theme={theme}> */}
-      <p>{t("yo")}</p>
+      {/* <p>{t("yo")}</p> */}
+      <Form />
       {/* <RouterProvider router={router} /> */}
       {/* </ThemeProvider> */}
     </>
