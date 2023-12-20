@@ -1,7 +1,7 @@
 // import { RouterProvider } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import "./App.css";
-import Form from "./components/common/form/Form";
+import Form from "Components/common/form/Form";
 
 function App() {
   const { t } = useTranslation(["common"]);

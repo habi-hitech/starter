@@ -7,10 +7,10 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": "/src",
-      "Components/*": ["./src/components/*"],
-      Components: ["./src/components"],
-      "Assets/*": ["./src/assets/*"],
-      Assets: ["./src/assets"],
+      "Components/*": ["/src/components/*"],
+      Components: ["/src/components"],
+      "Assets/*": ["/src/assets/*"],
+      Assets: ["/src/assets"],
     },
   },
 });
